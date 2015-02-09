@@ -33,7 +33,7 @@ def getResources(p):
                 "fields": [
                   { "id": "code", "type": "text" },
                   { "id": "title", "type": "text" },
-                  { "id": "value", "type": "text" },
+                  { "id": "value", "type": "float" },
                   { "id": "latest_date", "type": "timestamp" },
                   { "id": "source", "type": "text" },
                   { "id": "source_link", "type": "text" },
