@@ -173,4 +173,4 @@ try:
 except Exception as e:
     print e
     scraperwiki.status('error', 'Creating datastore failed')
-    os.system("mail -s 'Guinea 3W: creating datastore failed.' luiscape@gmail.com")
+    os.system("mail -s 'WFP Topline: creating datastore failed.' luiscape@gmail.com")
