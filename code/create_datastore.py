@@ -34,7 +34,7 @@ def getResources(p):
                   { "id": "code", "type": "text" },
                   { "id": "title", "type": "text" },
                   { "id": "value", "type": "text" },
-                  { "id": "latest_date", "type": "datetime" },
+                  { "id": "latest_date", "type": "timestamp" },
                   { "id": "source", "type": "text" },
                   { "id": "source_link", "type": "text" },
                   { "id": "notes", "type": "text" },
