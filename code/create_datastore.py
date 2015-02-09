@@ -11,7 +11,6 @@ import urllib
 import requests
 import sys
 import hashlib
-from update_timestamp import updateTimestamp
 
 # Collecting configuration variables
 API_KEY = sys.argv[1]
