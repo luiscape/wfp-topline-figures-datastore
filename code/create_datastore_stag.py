@@ -17,7 +17,7 @@ API_KEY = sys.argv[1]
 FILE_PATH = sys.argv[2]
 
 # configuring the remote CKAN instance
-ckan = ckanapi.RemoteCKAN('http://data.hdx.rwlabs.org', apikey=API_KEY)
+ckan = ckanapi.RemoteCKAN('http://test-data.hdx.rwlabs.org', apikey=API_KEY)
 
 # This is where the resources are declared. For now,
 # they are declared as a Python list.
@@ -84,12 +84,12 @@ def checkHash(filename, first_run, resource_id):
     # checking if the files are identical or if
     # they have changed
     if first_run:
-        scraperwiki.sqlite.save_var('prod', new_hash)
+        scraperwiki.sqlite.save_var('stag', new_hash)
         new_data = False
 
     else:
-        old_hash = scraperwiki.sqlite.get_var('prod')
-        scraperwiki.sqlite.save_var('prod', new_hash)
+        old_hash = scraperwiki.sqlite.get_var('stag')
+        scraperwiki.sqlite.save_var('stag', new_hash)
         new_data = old_hash != new_hash
 
     # returning a boolean

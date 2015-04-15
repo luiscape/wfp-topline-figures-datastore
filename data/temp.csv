@@ -1,0 +1,5 @@
+code,title,value,latest_date,source,source_link,notes,explore,units
+WFP01201,Countries with Operations,75,2014-12-31,WFP,https://link.to.the.dataset,Countries with WFP presence in 2013.,http://simonbjohnson.github.io/Ebola_Market_prices/,count
+WFP01202,People Reached with Food Assistance,80900000,2014-12-31,WFP,https://link.to.the.dataset,People reached with food assistance in 2013.,,million
+WFP01203,Metrics Tons of Food Delivered,3100000,2014-12-31,WFP,https://link.to.the.dataset,Metric tons of food delivered in 2013.,,million
+WFP01204,Cash & Voucher Transfers (USD),506000000,2014-12-31,UNHAS,https://link.to.the.dataset,USD value of cash and voucher transfers in 2013. More than 7.9 million people were reached in 2013 with cash and voucher transfers.,http://simonbjohnson.github.io/Ebola_Market_prices/,million
